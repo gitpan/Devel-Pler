@@ -1,0 +1,26 @@
+Revision history for Perl extension ADAMK-Debug
+
+0.07 Wed 19 Jul 2006
+	- Renaming apld script to pler :)
+	- Renaming ADAMK::Debug to Devel::Pler
+	- Renaming distribution from ADAMK-Debug to Devel-Pler
+
+0.06 Wed 19 Jul 2006
+	- Add lib to @INC if there is not blib but there is an inc
+
+0.05 Tue 18 Jul 2006
+	- Bug fix
+
+0.04 Tue 18 Jul 2006
+	- This time, make ADAMK::Debug an actual Exporter
+
+0.03 Tue 18 Jul 2006
+	- Call perl -d with -Mblib if needed
+	- Enable warnings in apld by default
+
+0.02 Tue 18 Jul 2006
+	- Run make if needed
+	- Shifted support functions out to the module
+
+0.01 Tue 18 Jul 2006
+	- Created the initial implementation

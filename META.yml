@@ -1,0 +1,18 @@
+abstract: ~
+author: 'Adam Kennedy <adamk@cpan.org>'
+build_requires:
+  Test::More: 0.47
+  Test::Script: 0.01
+distribution_type: module
+generated_by: Module::Install version 0.63
+license: perl
+name: Devel-Pler
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Exporter: 0
+  File::Spec: 0.80
+  perl: 5.005
+version: 0.07
