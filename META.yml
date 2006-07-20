@@ -15,4 +15,4 @@ requires:
   Exporter: 0
   File::Spec: 0.80
   perl: 5.005
-version: 0.08
+version: 0.09
